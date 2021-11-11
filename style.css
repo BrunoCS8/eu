@@ -45,7 +45,7 @@ main{padding: 30px;}
 main .container{display: flex; justify-content:space-around; font-size: 1.1em; font-family: var(--font3); line-height: 30px; text-align: justify;  flex-flow: row nowrap ;}
 main .container article{margin: 50px; max-width: 350px;}
 main article{margin-left: 15%;}
-@media(max-width:950px){main .container{flex-flow: column; align-items: center; font-size: 0.8em;}
+@media(max-width:950px){main{padding: 0px;}main .container{flex-flow: column; align-items: center; font-size: 0.8em;}
 main article{margin-left: 0%;}}
 
 /*ARTICLE*/
@@ -53,7 +53,7 @@ article{background-color: white; border-radius: 20px; padding: 15px; margin-top:
 article h1{font-family: var(--font3); font-size: 20px;}
 article h2{font-family: var(--font3); font-size: 20px;}
 article p{padding-top: 10px; font-size: 0.9em; font-family: var(--font3); line-height: 30px; text-align: justify;}
-@media(max-width:950px){article{max-width: 100%;}}
+@media(max-width:950px){article{max-width:100%;}}
 
 
 /*FOOTER*/
